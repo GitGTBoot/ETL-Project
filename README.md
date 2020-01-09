@@ -37,8 +37,5 @@ d)	Dropping irrelevant columns , renaming and rearrangement of columns were done
       Confirmation of date being inserted into tables was performed by querying one country( Germany) table .
 
 
-
-
 Results/Conclusions can be viewed 
 https://github.com/GitGTech/ETL-Project/blob/master/ETL-Project.ipynb
-
