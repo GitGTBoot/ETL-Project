@@ -1,4 +1,4 @@
-###ETL-Youtube_Statistics
+#ETL-Youtube_Statistics
 
 Purpose:
 The purpose of this project was to perform an Extract-Transform-Load (ETL) process on  trending YouTube video statistics data in 2018 . The approach was to use the SQLAlchemy and Pandas modules in Python to extract and transform the data. SQLAlchemy was then used to load the transformed data into a PostgreSQL database.
