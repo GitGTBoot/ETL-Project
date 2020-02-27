@@ -1,5 +1,5 @@
 # ETL-Youtube_Statistics
-![stats](/images/youtubestats.png)
+                        ![stats](/images/youtubestats.png)
 ## Contributors:
 George Oddoye , Vidhyanandhi Jegannathan
 
@@ -59,16 +59,13 @@ e)	Dropping irrelevant columns , renaming and rearrangement of columns were done
 3)We merged Data frames df1 and df2 to present meaningful data. 
 
 ### Data Loading
-1. We	created a PostgreSQL database, and generated tables with the appropriate primary and foreign keys.
-<<<<<<< HEAD
+1. We	created a PostgreSQL database, and generated tables.
+
 a) Tables created in pgAdmin
 ![tables](/images/createTable.png)
 
 b) Created a connection between pandas and PostGres
-=======
-a) Created a connection between pandas and PostGres
 
->>>>>>> 75bc6aa4227df89a44eed9261bc549c075505147
 ![connection](/images/dbs_connection.png)
 
 2. We	populated the tables with information from the appropriate data frames and confirmed the data loading .
