@@ -32,18 +32,20 @@ We imported necessary files:
 ### Data Transformation
 1) We cleaned all data frames read from JSON files 
 a)	Category id  and category title for each record was parsed from the JSON files and stored in lists that were used to create a new data frame (df1).
-
 i) example dictionary 
+
 ![dict](/images/usa_dict.png)
 
 ii)created dataframe df1 from dictionary
+
 ![df from dict](/images/dictTodf.png)
 
 
 2) We cleaned all data frames read from CSV files.
 a)	CSV files were read into data frames and transformed (df2).
 b) Data type of category_id column was changed to interger.
-![integer](/images/integer.png)
+
+![integer](/images/interger.png)
 
 c)	Time of video publication was originally in the ISO format. Time ( hour, min, sec)  of video publication was parsed from original format.
 
@@ -51,16 +53,22 @@ c)	Time of video publication was originally in the ISO format. Time ( hour, min,
 
 d)	A new published time column was be added to df2. 
 e)	Dropping irrelevant columns , renaming and rearrangement of columns were done along with changing of data types to maintain uniformity.
+
 ![relevant columns](/images/relevant_columns.png)
 
 3)We merged Data frames df1 and df2 to present meaningful data. 
 
 ### Data Loading
 1. We	created a PostgreSQL database, and generated tables with the appropriate primary and foreign keys.
+<<<<<<< HEAD
 a) Tables created in pgAdmin
 ![tables](/images/createTable.png)
 
 b) Created a connection between pandas and PostGres
+=======
+a) Created a connection between pandas and PostGres
+
+>>>>>>> 75bc6aa4227df89a44eed9261bc549c075505147
 ![connection](/images/dbs_connection.png)
 
 2. We	populated the tables with information from the appropriate data frames and confirmed the data loading .
