@@ -18,12 +18,15 @@ Each region’s data is in a separate  .csv file . The data also includes a cate
 ## Tasks
 ### Data Extraction
 Dependencies Utilized:
+
 ![libraries](/images/dependencies.png)
 
 We imported necessary files:
 1.	Imported the  4 countries’  video data CSV files and read them into Pandas data frames.
 2.	Imported the 4 countries’  category id data JSON files and read them into Pandas data frame.
 3.	Inspected the data frames, and identify issues and inconsistencies.
+
+![allfiles](/images/allfiles.png)
 
 ### Data Transformation
 1) We cleaned all data frames read from JSON files 
