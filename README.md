@@ -1,4 +1,5 @@
 # ETL-Youtube_Statistics
+![stats](/images/youtubestats.png)
 ## Contributors:
 George Oddoye , Vidhyanandhi Jegannathan
 
@@ -45,6 +46,7 @@ b) Data type of category_id column was changed to interger.
 ![integer](/images/integer.png)
 
 c)	Time of video publication was originally in the ISO format. Time ( hour, min, sec)  of video publication was parsed from original format.
+
 ![publish hour](/images/publish_hour.png)
 
 d)	A new published time column was be added to df2. 
@@ -55,12 +57,17 @@ e)	Dropping irrelevant columns , renaming and rearrangement of columns were done
 
 ### Data Loading
 1. We	created a PostgreSQL database, and generated tables with the appropriate primary and foreign keys.
-a) Created a connection between pandas and PostGres
+a) Tables created in pgAdmin
+![tables](/images/createTable.png)
+
+b) Created a connection between pandas and PostGres
 ![connection](/images/dbs_connection.png)
 
 2. We	populated the tables with information from the appropriate data frames and confirmed the data loading .
 
 Confirmation of data loading and date being inserted into tables was performed by querying one country( Germany) table .
+
+![confirmation](/images/finaltable.png)
 
 
 Results/Conclusions can be viewed 
