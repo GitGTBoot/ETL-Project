@@ -1,5 +1,5 @@
 # ETL-Youtube_Statistics
-< img src="/images/youtubestats.png" width="100">                             
+                           
 ## Contributors:
 George Oddoye , Vidhyanandhi Jegannathan
 
